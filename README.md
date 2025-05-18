@@ -695,7 +695,7 @@ from faker import Faker
 import random
 
 conn = psycopg2.connect(
-    dbname="your_dbname",
+    dbname="hospital_db",
     user="postgres",
     password="postgres",
     host="localhost"
